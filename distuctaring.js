@@ -11,5 +11,5 @@ const Person = {
 
 };
 
-const {name,age,address} = Person;
-console.log(address.zip);
+const {name, age, address: {city, zip, state}} = Person;
+console.log(city);
